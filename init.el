@@ -95,16 +95,6 @@
 ;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 ;(load-theme 'zenburn t)
 
-(require 'sublime-themes)
-;(dorsey)
-;; did not work
-;(add-to-list 'custom-theme-load-path "/Users/kgarg/emacs-3rdParty/color-themes/")
-;(require 'sublime-text-2)
-;;(load-theme 'sublime-text-2 t)
-; worked
-;(add-to-list 'load-path "/Users/kgarg/emacs-3rdParty/color-themes/")
-;(require 'sublime-text-2)
-;(sublime-text-2)
 
 (semantic-add-system-include "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/c++/4.2.1" 'c++-mode)
 ;; Package: projejctile
@@ -136,7 +126,7 @@
  ;; If there is more than one, they won't work right.
  )
 
-(add-to-list 'load-path "~/emacs-3rdParty/gud.el")
+(add-to-list 'load-path "~/.emacs.d/emacs-3rdParty/gud.el")
 (require 'gud)
 
 (custom-set-variables

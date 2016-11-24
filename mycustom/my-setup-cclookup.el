@@ -1,6 +1,6 @@
 ;; ======================================================================
 ;; add cclookup to your loadpath, ex) ~/.emacs.d/cclookup
-(setq cclookup-dir "~/emacs-3rdParty/cclookup")
+(setq cclookup-dir ".~/.emacs.d/emacs-3rdParty/cclookup")
 (add-to-list 'load-path cclookup-dir)
 
 (require 'cclookup)

@@ -9,5 +9,5 @@
 	   '(("\\.cmake\\'" . cmake-mode))
 	   auto-mode-alist))
 
-(autoload 'cmake-mode "~/emacs-3rdParty/cmake-mode.el" t)
+(autoload 'cmake-mode "~/.emacs.d/emacs-3rdParty/cmake-mode.el" t)
 (provide 'my-setup-other-modes)

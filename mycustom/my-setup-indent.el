@@ -42,15 +42,15 @@
 ;(add-to-list 'load-path "~/emacs-3rdParty/fill-column-indicator-1.83")
 ;(require 'fill-column-indicator)
 
-(define-globalized-minor-mode
-  global-fci-mode fci-mode (lambda () (fci-mode 1)))
-(global-fci-mode t)
+;(define-globalized-minor-mode
+;  global-fci-mode fci-mode (lambda () (fci-mode 1)))
+;(global-fci-mode t)
 
-;(add-to-list 'load-path "~/emacs-3rdParty/doxymacs/")
-;(add-hook 'c-mode-common-hook
-;  (lambda ()
-;    (require 'doxymacs)
-;    (doxymacs-mode t)
-;    (doxymacs-font-lock)))
+(add-to-list 'load-path "~/emacs-3rdParty/doxymacs/")
+(add-hook 'c-mode-common-hook
+  (lambda ()
+    (require 'doxymacs)
+    (doxymacs-mode t)
+    (doxymacs-font-lock)))
 
 (provide 'my-setup-indent)
