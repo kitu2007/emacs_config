@@ -1,6 +1,6 @@
 ;; this is to setup the python mode
 ; add the load path of python-mode
-(setq py-install-directory "~/.emacs.d/emacs-3rdParty/python-mode.el-6.2.0")
+(setq py-install-directory "~/.emacs.d/python-mode.el-6.2.0")
 (add-to-list 'load-path py-install-directory)
 (require 'python-mode)
 
