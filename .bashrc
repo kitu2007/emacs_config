@@ -127,7 +127,7 @@ alias tf11='source /Users/kgarg/tf11/bin/activate'
 export LD_LIBRARY_PATH="/Users/kgarg/anaconda/lib/":$LD_LIBRARY_PATH
 #export PYTHONPATH=$PYTHONPATH:"/Users/kgarg/anaconda/lib/python2.7/site-packages"
 
-alias myd='ssh -Y kgarg@17.214.168.73'
+alias myd='ssh -Y kgarg@11.212.161.03'
 
 myf() {
     gpu1=$(printf "kgarg@gpu%s.sg.apple.com" $1)
