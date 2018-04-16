@@ -42,6 +42,8 @@
     jedi
     zenburn-theme
     sublime-themes
+    elpy
+    ein
     ;;volatile-highlights
     ;;undo-tree
     ;;zygospore
